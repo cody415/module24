@@ -1,0 +1,129 @@
+body {
+    border: #80ff08;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: lightskyblue;
+}
+
+
+.nav-bar a {
+    padding: 70px 60px;
+    font-size: 20px;
+    color: blue;
+    display: line;
+    outline: 0;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-color: green;
+    color: white;
+}
+
+.nav-bar a.active {
+    background-color: #80ff80;
+    color: aliceblue;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: lightskyblue;
+}
+
+
+.nav a {
+    padding: 50px 60px;
+    font-size: 20px;
+    color: blue;
+    display: line;
+    outline: 0;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: green;
+    color: white;
+}
+
+.nav a.active {
+    background-color: chartreuse;
+    color: aliceblue;
+}
+
+.Intro p {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.Intro img {
+    margin-left: auto;
+    margin-right: 0px;
+    display: block;
+    float: right;
+    border-color: #9999ff;
+    border-width: 15px;
+    border-style: double;
+}
+
+h1 {
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+h3 {
+
+    color: black;
+
+    body {
+        background-image: url('planet.jpg');
+    }
+
+    p {
+        color: azure;
+    }
+
+    .footer {
+        background-color: aqua;
+        color: black;
+        text-align: center;
+        margin-top: 230px;
+        bottom: 0;
+        height: 30px;
+        font-size: 30px;
+    }
+
+    .top .bottom .left .right {
+        border: rgb(0, 0, 0);
+        position: fixed;
+    }
+
+    .top .bottom {
+        top: 0;
+        bottom: 0;
+        height: 15px;
+    }
+
+    .top {
+        top: 0;
+    }
+
+    .bottom {
+        bottom: 0;
+    }
+
+    .left .right {
+        left: 0;
+        right: 0;
+        height: 15px;
+    }
+
+    .left {
+        left: 0;
+    }
+
+    .right {
+        right: 0;
+    }
